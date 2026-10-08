@@ -1,9 +1,8 @@
-import example.pepita
+import example.*
 
-describe "group of tests for pepita" {
-
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
-  }
-
+describe "name" {
+    test "description" {
+        const mosca = new Plaga(poblacion = 5)
+        assert.equals(0, mosca.nivelDeDaño())
+    }
 }
